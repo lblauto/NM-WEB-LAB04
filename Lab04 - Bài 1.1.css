@@ -1,0 +1,196 @@
+    body {
+        margin: 0px;
+    }
+    #container {
+        width: 1000px;
+        margin: 0px auto;
+        min-height: 600px;
+        background-color: black;
+    }
+    header {
+        background-color: #FF0;
+        height: 150px;
+        position: relative;
+    }
+    nav {
+        height: 60px;
+        background-color: #000;
+        color: #FFF;
+    }
+    ul li {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+    a {
+        text-decoration: none;
+        color: #FFF;
+    }
+    li:hover {
+        text-decoration: underline;
+        background-color: blue;
+        color: pink;
+        border-radius: 9px;
+    }
+    #content {
+        background-color: #FCF;
+        min-height: 400px;
+        width: 790px;
+        float: left;
+        padding: 5px;
+    }
+    #left {
+        background-color: black;
+        min-height: 400px;
+        width: 200px;
+        float: left;
+    }
+    footer {
+        background-color: #F4AC32;
+        color: #FFF;
+        height: auto;
+        text-align: center;
+        clear: both;
+        margin: 15px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
+    }
+    footer .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+    }
+
+    h2{
+        font-size: 45px;
+        line-height: 0px;
+        color: black;
+    }
+
+    h4{
+        font-size: 22px;
+        color: black;
+    }
+
+    h6{
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 18px;
+        color: black;
+        line-height: 0px;
+        font-family: Helvetica;
+    }
+    .symbol{
+        list-style: none;
+        display: flex;
+        font-size: 50px;
+        text-decoration: none;
+        color: black;
+        line-height: 0px;
+    }
+
+    .symbol li{
+        margin: 10px;
+    }
+
+    .symbol i{
+        color: black;
+    }
+
+    .symbol i:hover{
+       color: #ba3b46;
+    }
+
+    .footer-bottom{
+        text-align: center;
+    }
+    .hh-box {
+        border-radius: 5px;
+        box-shadow: 0 0 5px silver;
+        position: relative;
+        display: inline-block;
+        margin: 70px 5px 5px 5px;
+        padding: 15px 25px;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+    }
+    .hh-box-image {
+        width:100px;
+        height:100px;
+        margin-top: 50px;
+    }
+    .hh-box-name {
+        box-shadow: 0 0 5px silver;
+        position:absolute;  
+        left:20px; 
+        top:-30px; 
+        width: inherit; 
+        text-align:center; 
+        font-size: 25px; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .hh-box-price {
+        position: absolute;
+        font-weight: bold;
+        left: 1px;
+        bottom: 1px;
+        color: blue;
+        position:absolute;  
+        font-size: 30px;
+    }
+    .hh-box-actions {
+        position: absolute;
+        right: 4px;
+        bottom: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hh-box-icon {
+        position:absolute;
+        width: 80px;
+        height: 80px;
+        top:0px;
+        right:10px;
+    }
+    .icon-text {
+      display: flex;
+      align-items: center;
+      color: #FFF;
+      font-family: tahoma, verdana;
+      font-weight: bold;
+      font-size: 11.5px;
+    }
+    .icon-text i {
+      margin-right: 5px;
+    }
+    .search-box {
+        float: left;
+        margin-top: 15px;
+        display: inline-block;
+        padding: 0px 16.9px;
+    }
+
+    .search-box input[type="text"] {
+        padding: 7px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 250px;
+    }
+
+    .search-box button {
+        background-color: blue;
+        color: #FFF;
+        padding: 5px 20px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
